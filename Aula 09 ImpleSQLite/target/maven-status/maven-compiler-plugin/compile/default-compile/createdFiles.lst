@@ -1,0 +1,16 @@
+org\example\repository\EntityRepository.class
+org\example\paymentMethods\BoletoPayment.class
+org\example\repository\HashMapRepository.class
+org\example\PaymentMethodFactory$1.class
+org\example\PaymentManager.class
+org\example\PaymentMethodFactory.class
+org\example\repository\InMemoryRepository.class
+org\example\paymentMethods\CreditCardPayment.class
+org\example\repository\ProductRepository.class
+org\example\Main.class
+org\example\entities\Entity.class
+org\example\entities\Product.class
+org\example\entities\User.class
+org\example\paymentMethods\PaymentMethod.class
+org\example\paymentMethods\PaymentType.class
+org\example\paymentMethods\PixPayment.class
