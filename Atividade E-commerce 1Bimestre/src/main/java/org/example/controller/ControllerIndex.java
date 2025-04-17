@@ -110,7 +110,7 @@ public class ControllerIndex {
 
                     // Criar a venda e salvar
                     Sale sale = new Sale(user.getUuid(), produtosSelecionados, payment);
-                    //listaDeVendas.save(sale);
+                    listaDeVendas.save(sale);
 
                     viewIndex.exibirResumoVenda(user, produtosSelecionados, total, paymentType.name());
 
