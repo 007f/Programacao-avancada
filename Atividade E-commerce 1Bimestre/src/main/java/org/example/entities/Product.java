@@ -28,9 +28,9 @@ public class Product extends Entity {
     @Override
     public String toString() {
         return "\nProduto{" +
-                "uuid=" + getUuid() +
-                ", \nnome='" + getName() + '\'' +
-                ", \npreço=" + getPrice() +
+                "uuid = " + getUuid() +
+                ", \nnome = '" + getName() + '\'' +
+                ", \npreço = " + getPrice() +
                 "} \n_________________";
     }
 }
