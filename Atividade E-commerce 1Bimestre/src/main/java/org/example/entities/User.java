@@ -35,9 +35,9 @@ public class User extends Entity{
     @Override
     public String toString() {
         return "\nUsuario{" +
-                "uuid=" + getUuid() +
-                ", \nnome='" + getName() + '\'' +
-                ", \nEmail=" + getEmail() +
+                "uuid = " + getUuid() +
+                ", \nnome = '" + getName() + '\'' +
+                ", \nEmail = " + getEmail() +
                 "} \n_________________";
     }
 }
