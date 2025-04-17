@@ -91,10 +91,7 @@ public class ControllerIndex {
                         case 1 -> PaymentType.CARTAO;
                         case 2 -> PaymentType.BOLETO;
                         case 3 -> PaymentType.PIX;
-                        default -> {
-                            System.out.println("Opção inválida.");
-                            break;
-                        }
+                        default -> throw new RuntimeException("Opção invalida.");
                     };
 
                     PaymentMethod payment = PaymentMethodFactory.create(paymentType);
